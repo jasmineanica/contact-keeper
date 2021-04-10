@@ -21,10 +21,6 @@ const ContactSchema = mongoose.Schema({
     type: String,
     default: 'personal'
   },
-  password: {
-    type: String,
-    required: true
-  },
   date: {
     type: Date,
     default: Date.now
