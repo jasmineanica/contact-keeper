@@ -100,7 +100,7 @@ const ContactForm = () => {
       {current && <div>
           <button
             className="btn btn-light btn-block"
-            onClick={clearCurrent}
+            onClick={clearAll}
           >
             Clear
           </button>
