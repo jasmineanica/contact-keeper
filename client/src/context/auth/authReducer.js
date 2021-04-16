@@ -9,7 +9,7 @@ import {
   CLEAR_ERRORS,
 } from  '../types';
 
-export default (state, action) => {
+const authReducer = (state, action) => {
   switch(action.type) {
     case USER_LOADED:
       return {
@@ -48,4 +48,6 @@ export default (state, action) => {
     default:
       return state;
   }
-}
+};
+
+export default authReducer;
